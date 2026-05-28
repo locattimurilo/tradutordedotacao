@@ -1,0 +1,40 @@
+window.ORGAOS = {
+  "01": "Câmara Municipal",
+  "02": "Gabinete do Prefeito",
+  "03": "Procuradoria Geral do Município (PGM)",
+  "04": "Sistema de Controle Interno (SCI)",
+  "05": "Sec. de Cidade Inteligente e Transparência (SMCIT)",
+  "06": "Sec. do Clima e Meio Ambiente (SMCMA)",
+  "07": "Sec. de Conservação e Qualidade Urbana (SMCQU)",
+  "08": "Sec. de Cultura e Turismo (SMCT)",
+  "09": "Sec. de Desenvolvimento Econômico, Ciência e Tecnologia (SMDECT)",
+  "10": "Sec. de Desenvolvimento Rural e Bem-Estar Animal (SMDRBEA)",
+  "11": "Sec. de Desenvolvimento Social e Cidadania (SMDSC)",
+  "12": "Sec. de Educação (SMEDU)",
+  "13": "Sec. de Esporte (SMESP)",
+  "14": "Sec. das Famílias (SMFAM)",
+  "15": "Sec. de Fazenda (SMF)",
+  "16": "Sec. de Gestão da Cidade e Infraestrutura (SMGCI)",
+  "17": "Sec. de Gestão de Pessoas (SMGP)",
+  "18": "Sec. de Gestão Pública e Integração Governamental (SMGPIG)",
+  "19": "Sec. de Habitação Social e Regularização Fundiária (SMHSRF)",
+  "20": "Sec. de Justiça (SMJ)",
+  "21": "Sec. da Pessoa com Deficiência e Paradesportos (SMPDP)",
+  "22": "Sec. de Relações Legislativas (SMRL)",
+  "23": "Sec. de Saúde (SMS)",
+  "24": "Sec. de Segurança Pública e Mobilidade Urbana (SMSPMU)",
+  "25": "Sec. Especial de Infância e Juventude (SMEIJ)",
+  "26": "PROHAB - Progresso e Habitação de São Carlos S/A",
+  "27": "Fundação Educacional São Carlos (FESC)",
+  "28": "Fundação Pró-Memória de São Carlos",
+  "29": "SAAE - Serviço Autônomo de Água e Esgoto"
+};
+
+window.UNIDADES = {
+  "23.02": "Fundo Municipal de Saúde (FMS)",
+  "23.01": "Sec. Saúde — adm. direta",
+  "11.02": "Fundo Municipal de Assistência Social (FMAS)",
+  "11.01": "SMDSC — adm. direta",
+  "12.01": "SMEDU — adm. direta",
+  "15.01": "SMF — adm. direta"
+};

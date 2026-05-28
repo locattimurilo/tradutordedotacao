@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tradutor de Dotação</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="logo">
+      <span class="dot"></span>
+      <span>Tradutor de Dotação</span>
+      <span class="sep">·</span>
+      <span class="meta">São Carlos / 2026</span>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  <nav class="nav-tabs">
+    <button class="tab active" data-panel="decode">Traduzir</button>
+    <button class="tab" data-panel="lookup">Consultar tabela</button>
+  </nav>
+
+  <div class="panel active" id="panel-decode">
+    <div class="search-area">
+      <div class="dotacao-wrap" id="dotacao-wrap">
+        <div class="dotacao-field-group">
+          <input type="text" id="f-orgao" class="dotacao-field" data-label="Órgão" placeholder="12.01" autocomplete="off" spellcheck="false" inputmode="numeric">
+          <span class="dotacao-sep"></span>
+          <input type="text" id="f-nat" class="dotacao-field" data-label="Categoria Econômica" placeholder="3.3.90.39" autocomplete="off" spellcheck="false" inputmode="numeric">
+          <span class="dotacao-sep"></span>
+          <input type="text" id="f-fonte" class="dotacao-field" data-label="Fonte" placeholder="95" autocomplete="off" spellcheck="false" inputmode="numeric">
+          <span class="dotacao-sep"></span>
+          <input type="text" id="f-fp" class="dotacao-field" data-label="Funcional Programática" placeholder="12.368.2049.2.074" autocomplete="off" spellcheck="false" inputmode="numeric">
+        </div>
+        <div class="dotacao-labels">
+          <span>Órgão</span>
+          <span>Cat. Econômica</span>
+          <span>Fonte</span>
+          <span>Func. Programática</span>
+        </div>
+      </div>
+
+      <div class="examples">
+        <a class="chip" data-ex="23.02 3.3.90.93 1 10.302.2074.2.121">23.02 3.3.90.93 1 10.302.2074.2.121</a>
+        <a class="chip" data-ex="12.01 3.3.90.39 95 12.368.2049.2.074">12.01 3.3.90.39 95 12.368.2049.2.074</a>
+        <a class="chip" data-ex="10.302.2074">10.302.2074</a>
+      </div>
+    </div>
+
+    <div class="answer-box" id="answer" style="display:none;"></div>
+  </div>
+
+  <div class="panel" id="panel-lookup">
+    <div class="lookup-controls">
+      <select id="table-select">
+        <option value="orgaos">Órgãos</option>
+        <option value="funcoes">Funções</option>
+        <option value="subfuncoes">Subfunções</option>
+        <option value="programas">Programas</option>
+        <option value="acoes">Ações</option>
+        <option value="naturezas">Natureza da Despesa</option>
+        <option value="fontes">Fontes de Recurso</option>
+      </select>
+      <input type="text" class="search" id="search-input" placeholder="filtrar...">
+    </div>
+    <div class="lookup-result" id="lookup-result"></div>
+  </div>
+
+  <footer>
+    <span>tabelas oficiais PMSC 2026 · Lei nº 4.320/64</span>
+    <span><code>v1.0</code></span>
+  </footer>
+
+</div>
+
+<script src="data/funcoes.js"></script>
+<script src="data/subfuncoes.js"></script>
+<script src="data/orgaos.js"></script>
+<script src="data/programas.js"></script>
+<script src="data/acoes.js"></script>
+<script src="data/naturezas.js"></script>
+<script src="data/fontes.js"></script>
+<script src="js/mask.js"></script>
+<script src="js/parser.js"></script>
+<script src="js/translator.js"></script>
+<script src="js/lookup.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
