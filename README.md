@@ -98,26 +98,17 @@ Também há uma aba de **consulta de tabelas**, para navegar e filtrar diretamen
 
 ## 📚 Fontes dos dados
 
-Tabelas orçamentárias oficiais da Prefeitura Municipal de São Carlos (exercício 2026) e fichas públicas, com base na Lei nº 4.320/64.
+Tabelas orçamentárias oficiais da Prefeitura Municipal de São Carlos (exercício 2026).
 
 ---
 
 ## 🏙️ Quer implementar na sua cidade?
 
-A ferramenta foi pensada para ser adaptável a qualquer município — basta substituir as tabelas orçamentárias pelos dados locais. **Estou aberto a colaborar e implementar o Tradutor em outras cidades.** Entre em contato pelo [LinkedIn](https://www.linkedin.com/in/murilo-locatti-cavalho-36b03a140/) ou por e-mail (murilo.locatti@gmail.com).
+A ferramenta foi pensada para ser adaptável a qualquer município — basta substituir as tabelas orçamentárias pelos dados locais. **Estou aberto a colaborar e implementar o Tradutor em outras cidades.** Entre em contato pelo [LinkedIn](https://www.linkedin.com/in/murilo-locatti-cavalho-36b03a140/).
 
 ---
 
 Licença: GNU 🦬
-
-<p>
-  <a href="https://www.linkedin.com/in/murilo-locatti-cavalho-36b03a140/">
-    <img src="https://img.shields.io/badge/LinkedIn-006192?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
-  <a href="https://github.com/locattimurilo">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
-  </a>
-</p>
 
 ---
 
