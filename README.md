@@ -30,7 +30,7 @@
 
 ## 💡 Como nasceu
 
-O projeto começou a partir de uma conversa com o <a href="https://www.instagram.com/djalmaneryneto/">vereador Djalma Nery (PSOL)</a>. Foi ele quem trouxe a demanda e a ideia inicial: a partir da própria rotina como veraedor, identificou uma dificuldade traduzir as dotações, que exigiam consultar várias tabelas oficiais separadas, cruzando manualmente os códigos de órgão, função, subfunção, programa, ação, natureza da despesa e fonte de recurso.
+O projeto começou a partir de uma conversa com o <a href="https://www.instagram.com/djalmaneryneto/">vereador Djalma Nery (PSOL)</a>. Foi ele quem trouxe a demanda e a ideia inicial: a partir da própria rotina como vereador, identificou uma dificuldade traduzir as dotações, que exigiam consultar várias tabelas oficiais separadas, cruzando manualmente os códigos de órgão, função, subfunção, programa, ação, natureza da despesa e fonte de recurso.
 
 A proposta que ele formulou foi direta e solicita: criar um **mecanismo de busca em que, ao inserir a dotação, a ferramenta devolvesse a leitura pronta** — funcionando como um leitor de CPF que encotramos em sites variados,  que reconhece e valida o padrão automaticamente conforme você digita. A visão do problema e o desenho da solução partiram dessa leitura política e prática do orçamento público.
 
